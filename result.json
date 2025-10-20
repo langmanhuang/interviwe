@@ -1,0 +1,1113 @@
+{
+  "repo_path": "/var/folders/f7/qmhnyty13md7hldlfkdw2bch0000gn/T/repo_unzip_k61cairr",
+  "truncated_file_summaries": false,
+  "file_summaries_count": 32,
+  "file_summaries": [
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/main.ts",
+      "filename": "main.ts",
+      "summary": "Bootstraps a NestJS application, sets up middleware, interceptors, and pipes, and starts the server.",
+      "keys": [
+        "app.useGlobalInterceptors",
+        "app.listen",
+        "app.use",
+        "NestFactory.create",
+        "app.getUrl",
+        "app.useGlobalPipes"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "nestjs-channel-messenger-demo-main/src/main.ts",
+          "summary": "Bootstraps a NestJS application, sets up middleware, interceptors, and pipes, and starts the server.",
+          "keys": [
+            "NestFactory.create",
+            "app.use",
+            "app.useGlobalInterceptors",
+            "app.useGlobalPipes",
+            "app.listen",
+            "app.getUrl"
+          ],
+          "related_line": "1-15",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/main.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/app.service.ts",
+      "filename": "app.service.ts",
+      "summary": "Service class that provides a method to return a greeting message.",
+      "keys": [
+        "getHello"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "app.service.ts",
+          "summary": "Service class that provides a method to return a greeting message.",
+          "keys": [
+            "getHello"
+          ],
+          "related_line": "1-10",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/app.service.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/app.module.ts",
+      "filename": "app.module.ts",
+      "summary": "This file defines the main application module for a NestJS application, configuring imports for TypeORM, GraphQL, and other modules.",
+      "keys": [
+        "Module",
+        "forRootAsync",
+        "forRoot"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "app.module.ts",
+          "summary": "This file defines the main application module for a NestJS application, configuring imports for TypeORM, GraphQL, and other modules.",
+          "keys": [
+            "Module",
+            "forRootAsync",
+            "forRoot"
+          ],
+          "related_line": "1-30",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/app.module.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/app.controller.ts",
+      "filename": "app.controller.ts",
+      "summary": "Defines a controller for handling HTTP GET requests and returning a greeting message.",
+      "keys": [
+        "constructor",
+        "Controller",
+        "AppController",
+        "Get",
+        "getHello"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "app.controller.ts",
+          "summary": "Defines a controller for handling HTTP GET requests and returning a greeting message.",
+          "keys": [
+            "Controller",
+            "Get",
+            "AppController",
+            "constructor",
+            "getHello"
+          ],
+          "related_line": "1-10",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/app.controller.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/environments/index.ts",
+      "filename": "index.ts",
+      "summary": "Environment configuration settings for the application.",
+      "keys": [
+        "process.env.PRIMARY_COLOR",
+        "process.env.SERVER_PORT",
+        "process.env.DATABASE_LOGGING",
+        "process.env.DATABASE_SYNCHRONIZE",
+        "process.env.DATABASE_PATH",
+        "process.env.GRAPHQL_DEPTH_LIMIT",
+        "process.env.NODE_ENV",
+        "dotenv.config"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "index.ts",
+          "summary": "Environment configuration settings for the application.",
+          "keys": [
+            "dotenv.config",
+            "process.env.NODE_ENV",
+            "process.env.SERVER_PORT",
+            "process.env.DATABASE_PATH",
+            "process.env.DATABASE_LOGGING",
+            "process.env.DATABASE_SYNCHRONIZE",
+            "process.env.PRIMARY_COLOR",
+            "process.env.GRAPHQL_DEPTH_LIMIT"
+          ],
+          "related_line": "1-20",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/environments/index.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/index.ts",
+      "filename": "index.ts",
+      "summary": "Re-exports various filters, interceptors, middleware, and pipes for use in the application.",
+      "keys": [
+        "logging.interceptor",
+        "exception.interceptor",
+        "validation.pipe",
+        "logger.middleware",
+        "http-exception.filter"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "index.ts",
+          "summary": "Re-exports various filters, interceptors, middleware, and pipes for use in the application.",
+          "keys": [
+            "http-exception.filter",
+            "exception.interceptor",
+            "logging.interceptor",
+            "logger.middleware",
+            "validation.pipe"
+          ],
+          "related_line": "1-5",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/index.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.service.ts",
+      "filename": "message.service.ts",
+      "summary": "服务类用于处理消息的创建、查询、更新和删除操作。",
+      "keys": [
+        "findAll",
+        "update",
+        "remove",
+        "create",
+        "findOne"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "message.service.ts",
+          "summary": "服务类用于处理消息的创建、查询、更新和删除操作。",
+          "keys": [
+            "create",
+            "findAll",
+            "findOne",
+            "update",
+            "remove"
+          ],
+          "related_line": {
+            "create": "20-38",
+            "findAll": "40-66",
+            "findOne": "68-84",
+            "update": "86-112",
+            "remove": "114-130"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/message.service.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.resolver.ts",
+      "filename": "message.resolver.ts",
+      "summary": "This file defines a GraphQL resolver for handling message-related operations such as creating, updating, finding, and removing messages.",
+      "keys": [
+        "findAll",
+        "updateMessage",
+        "removeMessage",
+        "findOne",
+        "createMessage"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "message.resolver.ts",
+          "summary": "This file defines a GraphQL resolver for handling message-related operations such as creating, updating, finding, and removing messages.",
+          "keys": [
+            "createMessage",
+            "findAll",
+            "findOne",
+            "updateMessage",
+            "removeMessage"
+          ],
+          "related_line": {
+            "createMessage": "10-14",
+            "findAll": "16-19",
+            "findOne": "21-24",
+            "updateMessage": "26-30",
+            "removeMessage": "32-35"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/message.resolver.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.service.spec.ts",
+      "filename": "message.service.spec.ts",
+      "summary": "Unit tests for the MessageService class, testing its methods for creating, finding, updating, and removing messages.",
+      "keys": [
+        "findAll",
+        "update",
+        "beforeEach",
+        "remove",
+        "create",
+        "findOne",
+        "it"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "message.service.spec.ts",
+          "summary": "Unit tests for the MessageService class, testing its methods for creating, finding, updating, and removing messages.",
+          "keys": [
+            "beforeEach",
+            "it",
+            "create",
+            "findAll",
+            "findOne",
+            "update",
+            "remove"
+          ],
+          "related_line": {
+            "beforeEach": "7-25",
+            "it": "27-61"
+          },
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/message.service.spec.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.module.ts",
+      "filename": "message.module.ts",
+      "summary": "Defines the Message module for the NestJS application, including imports and providers.",
+      "keys": [
+        "TypeOrmModule",
+        "Channel",
+        "MessageService",
+        "Message",
+        "Module",
+        "MessageModule",
+        "MessageResolver"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "message.module.ts",
+          "summary": "Defines the Message module for the NestJS application, including imports and providers.",
+          "keys": [
+            "Module",
+            "MessageService",
+            "MessageResolver",
+            "TypeOrmModule",
+            "Message",
+            "Channel",
+            "MessageModule"
+          ],
+          "related_line": "1-12",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/message.module.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.service.ts",
+      "filename": "channel.service.ts",
+      "summary": "服务类用于管理频道的创建、查询、更新和删除操作。",
+      "keys": [
+        "findAll",
+        "update",
+        "remove",
+        "create",
+        "findOne"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "channel.service.ts",
+          "summary": "服务类用于管理频道的创建、查询、更新和删除操作。",
+          "keys": [
+            "create",
+            "findOne",
+            "findAll",
+            "update",
+            "remove"
+          ],
+          "related_line": {
+            "create": "31-36",
+            "findOne": "38-48",
+            "findAll": "50-70",
+            "update": "72-86",
+            "remove": "88-102"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.service.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.service.spec.ts",
+      "filename": "channel.service.spec.ts",
+      "summary": "Unit tests for the ChannelService, testing its methods for creating, finding, updating, and removing channels.",
+      "keys": [
+        "findAll",
+        "update",
+        "beforeEach",
+        "remove",
+        "create",
+        "findOne",
+        "it"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "channel.service.spec.ts",
+          "summary": "Unit tests for the ChannelService, testing its methods for creating, finding, updating, and removing channels.",
+          "keys": [
+            "beforeEach",
+            "it",
+            "create",
+            "findAll",
+            "findOne",
+            "update",
+            "remove"
+          ],
+          "related_line": {
+            "beforeEach": "7-27",
+            "it": "29-61"
+          },
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.service.spec.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.resolver.ts",
+      "filename": "channel.resolver.ts",
+      "summary": "This file defines a GraphQL resolver for managing channels, including creating, updating, finding, and removing channels.",
+      "keys": [
+        "findAll",
+        "removeChannel",
+        "findOne",
+        "updateChannel",
+        "createChannel"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "channel.resolver.ts",
+          "summary": "This file defines a GraphQL resolver for managing channels, including creating, updating, finding, and removing channels.",
+          "keys": [
+            "createChannel",
+            "findAll",
+            "findOne",
+            "updateChannel",
+            "removeChannel"
+          ],
+          "related_line": {
+            "createChannel": "10-14",
+            "findAll": "16-19",
+            "findOne": "21-24",
+            "updateChannel": "26-30",
+            "removeChannel": "32-35"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.resolver.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.module.ts",
+      "filename": "channel.module.ts",
+      "summary": "Defines the Channel module for the NestJS application, including imports and providers.",
+      "keys": [
+        "TypeOrmModule",
+        "ChannelModule",
+        "ChannelResolver",
+        "Channel",
+        "Message",
+        "ChannelService",
+        "Module"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "channel.module.ts",
+          "summary": "Defines the Channel module for the NestJS application, including imports and providers.",
+          "keys": [
+            "Module",
+            "ChannelService",
+            "ChannelResolver",
+            "TypeOrmModule",
+            "Channel",
+            "Message",
+            "ChannelModule"
+          ],
+          "related_line": {
+            "Module": "1-10",
+            "ChannelService": "2-2",
+            "ChannelResolver": "3-3",
+            "TypeOrmModule": "4-4",
+            "Channel": "5-5",
+            "Message": "6-6",
+            "ChannelModule": "8-10"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.module.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/dto/create-channel.input.ts",
+      "filename": "create-channel.input.ts",
+      "summary": "Defines the input type for creating a channel with validation rules.",
+      "keys": [
+        "IsNotEmpty",
+        "IsString",
+        "Field",
+        "CreateChannelInput",
+        "InputType"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "create-channel.input.ts",
+          "summary": "Defines the input type for creating a channel with validation rules.",
+          "keys": [
+            "InputType",
+            "Field",
+            "IsNotEmpty",
+            "IsString",
+            "CreateChannelInput"
+          ],
+          "related_line": "1-10",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/dto/create-channel.input.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/dto/update-channel.input.ts",
+      "filename": "update-channel.input.ts",
+      "summary": "Defines an input type for updating a channel, extending from CreateChannelInput.",
+      "keys": [
+        "PartialType",
+        "UpdateChannelInput",
+        "InputType"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "update-channel.input.ts",
+          "summary": "Defines an input type for updating a channel, extending from CreateChannelInput.",
+          "keys": [
+            "InputType",
+            "PartialType",
+            "UpdateChannelInput"
+          ],
+          "related_line": "1-6",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/dto/update-channel.input.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/channel/entities/channel.entity.ts",
+      "filename": "channel.entity.ts",
+      "summary": "Defines the Channel entity for the channels table with fields for id, name, createdAt, and updatedAt.",
+      "keys": [
+        "PrimaryGeneratedColumn",
+        "UpdateDateColumn",
+        "Entity",
+        "CreateDateColumn",
+        "Column"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "channel.entity.ts",
+          "summary": "Defines the Channel entity for the channels table with fields for id, name, createdAt, and updatedAt.",
+          "keys": [
+            "Entity",
+            "PrimaryGeneratedColumn",
+            "Column",
+            "CreateDateColumn",
+            "UpdateDateColumn"
+          ],
+          "related_line": "1-30",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/channel/entities/channel.entity.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/dto/create-message.input.ts",
+      "filename": "create-message.input.ts",
+      "summary": "Defines the input data structure for creating a message, including validation rules.",
+      "keys": [
+        "CreateMessageInput"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "create-message.input.ts",
+          "summary": "Defines the input data structure for creating a message, including validation rules.",
+          "keys": [
+            "CreateMessageInput"
+          ],
+          "related_line": "1-24",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/dto/create-message.input.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/dto/messages.args.ts",
+      "filename": "messages.args.ts",
+      "summary": "Defines the arguments for fetching messages, extending ListArgs with an additional channelId field.",
+      "keys": [
+        "Int",
+        "ListArgs",
+        "Field",
+        "ArgsType"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "messages.args.ts",
+          "summary": "Defines the arguments for fetching messages, extending ListArgs with an additional channelId field.",
+          "keys": [
+            "ListArgs",
+            "ArgsType",
+            "Field",
+            "Int"
+          ],
+          "related_line": "1-10",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/dto/messages.args.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/dto/update-message.input.ts",
+      "filename": "update-message.input.ts",
+      "summary": "Defines an input type for updating messages, extending from CreateMessageInput.",
+      "keys": [
+        "PartialType",
+        "InputType",
+        "UpdateMessageInput"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "update-message.input.ts",
+          "summary": "Defines an input type for updating messages, extending from CreateMessageInput.",
+          "keys": [
+            "InputType",
+            "PartialType",
+            "UpdateMessageInput"
+          ],
+          "related_line": "1-6",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/dto/update-message.input.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/modules/message/entities/message.entity.ts",
+      "filename": "message.entity.ts",
+      "summary": "Defines the Message entity for the messages table in the database with fields for id, title, content, channel, createdAt, and updatedAt.",
+      "keys": [
+        "PrimaryGeneratedColumn",
+        "ManyToOne",
+        "JoinColumn",
+        "UpdateDateColumn",
+        "Entity",
+        "CreateDateColumn",
+        "Column"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "message.entity.ts",
+          "summary": "Defines the Message entity for the messages table in the database with fields for id, title, content, channel, createdAt, and updatedAt.",
+          "keys": [
+            "Entity",
+            "PrimaryGeneratedColumn",
+            "Column",
+            "CreateDateColumn",
+            "UpdateDateColumn",
+            "ManyToOne",
+            "JoinColumn"
+          ],
+          "related_line": {
+            "Entity": "1-1",
+            "PrimaryGeneratedColumn": "8-8",
+            "Column": "11-11, 16-16",
+            "CreateDateColumn": "21-21",
+            "UpdateDateColumn": "26-26",
+            "ManyToOne": "31-31"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/modules/message/entities/message.entity.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/dto/list.args.ts",
+      "filename": "list.args.ts",
+      "summary": "定义用于分页和排序的参数类型",
+      "keys": [
+        "ListArgs"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "list.args.ts",
+          "summary": "定义用于分页和排序的参数类型",
+          "keys": [
+            "ListArgs"
+          ],
+          "related_line": "1-30",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/dto/list.args.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/filters/http-exception.filter.ts",
+      "filename": "http-exception.filter.ts",
+      "summary": "A filter for handling HTTP exceptions in a NestJS application.",
+      "keys": [
+        "catch"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "http-exception.filter.ts",
+          "summary": "A filter for handling HTTP exceptions in a NestJS application.",
+          "keys": [
+            "catch"
+          ],
+          "related_line": "6-20",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/filters/http-exception.filter.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/middleware/logger.middleware.ts",
+      "filename": "logger.middleware.ts",
+      "summary": "Middleware function that logs the user agent of incoming requests.",
+      "keys": [
+        "Logger.debug",
+        "LoggerMiddleware",
+        "next"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "logger.middleware.ts",
+          "summary": "Middleware function that logs the user agent of incoming requests.",
+          "keys": [
+            "LoggerMiddleware",
+            "Logger.debug",
+            "next"
+          ],
+          "related_line": "1-10",
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/middleware/logger.middleware.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/interceptors/logging.interceptor.ts",
+      "filename": "logging.interceptor.ts",
+      "summary": "LoggingInterceptor is a NestJS interceptor that logs the details of incoming requests, including the parent type and field name, using the Logger service.",
+      "keys": [
+        "intercept"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "logging.interceptor.ts",
+          "summary": "LoggingInterceptor is a NestJS interceptor that logs the details of incoming requests, including the parent type and field name, using the Logger service.",
+          "keys": [
+            "intercept"
+          ],
+          "related_line": {
+            "intercept": "7-30"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/interceptors/logging.interceptor.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/interceptors/exception.interceptor.ts",
+      "filename": "exception.interceptor.ts",
+      "summary": "An interceptor that catches errors and transforms them into a new HttpException.",
+      "keys": [
+        "ErrorsInterceptor",
+        "intercept"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "exception.interceptor.ts",
+          "summary": "An interceptor that catches errors and transforms them into a new HttpException.",
+          "keys": [
+            "ErrorsInterceptor",
+            "intercept"
+          ],
+          "related_line": {
+            "ErrorsInterceptor": "6-20",
+            "intercept": "9-18"
+          },
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/interceptors/exception.interceptor.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/enums/graphql.msg.code.enum.ts",
+      "filename": "graphql.msg.code.enum.ts",
+      "summary": "Defines an enumeration for GraphQL message codes.",
+      "keys": [
+        "GraphqlMsgCode"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "graphql.msg.code.enum.ts",
+          "summary": "Defines an enumeration for GraphQL message codes.",
+          "keys": [
+            "GraphqlMsgCode"
+          ],
+          "related_line": "1-8",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/enums/graphql.msg.code.enum.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/pipes/validation.pipe.ts",
+      "filename": "validation.pipe.ts",
+      "summary": "A validation pipe that transforms and validates input data using class-validator.",
+      "keys": [
+        "transform",
+        "formatErrors",
+        "toValidate"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "validation.pipe.ts",
+          "summary": "A validation pipe that transforms and validates input data using class-validator.",
+          "keys": [
+            "transform",
+            "toValidate",
+            "formatErrors"
+          ],
+          "related_line": {
+            "transform": "6-24",
+            "toValidate": "26-30",
+            "formatErrors": "32-40"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/pipes/validation.pipe.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/common/errors/custom.error.ts",
+      "filename": "custom.error.ts",
+      "summary": "Defines a custom error class that extends ApolloError.",
+      "keys": [
+        "CustomError"
+      ],
+      "related_features": [],
+      "types": [
+        "business"
+      ],
+      "chunks": [
+        {
+          "filename": "custom.error.ts",
+          "summary": "Defines a custom error class that extends ApolloError.",
+          "keys": [
+            "CustomError"
+          ],
+          "related_line": {
+            "CustomError": "3-10"
+          },
+          "type": "business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/common/errors/custom.error.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/config/graphql/index.ts",
+      "filename": "index.ts",
+      "summary": "GraphQL configuration service for setting up Apollo server options.",
+      "keys": [
+        "createGqlOptions"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "index.ts",
+          "summary": "GraphQL configuration service for setting up Apollo server options.",
+          "keys": [
+            "createGqlOptions"
+          ],
+          "related_line": {
+            "createGqlOptions": "8-56"
+          },
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/config/graphql/index.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/config/typeorm/index.ts",
+      "filename": "index.ts",
+      "summary": "Configuration service for TypeORM options in a NestJS application.",
+      "keys": [
+        "createTypeOrmOptions"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "index.ts",
+          "summary": "Configuration service for TypeORM options in a NestJS application.",
+          "keys": [
+            "createTypeOrmOptions"
+          ],
+          "related_line": "1-20",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/config/typeorm/index.ts",
+          "chunk_index": 0
+        }
+      ]
+    },
+    {
+      "file": "nestjs-channel-messenger-demo-main/src/config/graphql/directives/upper-case.directive.ts",
+      "filename": "upper-case.directive.ts",
+      "summary": "Transforms GraphQL schema to apply an upper case directive to specified fields.",
+      "keys": [
+        "upperDirectiveTransformer"
+      ],
+      "related_features": [],
+      "types": [
+        "non-business"
+      ],
+      "chunks": [
+        {
+          "filename": "upper-case.directive.ts",
+          "summary": "Transforms GraphQL schema to apply an upper case directive to specified fields.",
+          "keys": [
+            "upperDirectiveTransformer"
+          ],
+          "related_line": "1-34",
+          "type": "non-business",
+          "relpath": "nestjs-channel-messenger-demo-main/src/config/graphql/directives/upper-case.directive.ts",
+          "chunk_index": 0
+        }
+      ]
+    }
+  ],
+  "report": {
+    "concise_repo_summary": "This repository is a NestJS application that provides a messaging and channel management system, including features for creating, updating, and querying messages and channels via REST and GraphQL interfaces.",
+    "features": [
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/main.ts",
+        "name": "Bootstrap Application",
+        "description": "Bootstraps a NestJS application, sets up middleware, interceptors, and pipes, and starts the server.",
+        "line": "1-15",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/app.service.ts",
+        "name": "getHello",
+        "description": "Service class that provides a method to return a greeting message.",
+        "line": "1-10",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/app.controller.ts",
+        "name": "AppController",
+        "description": "Defines a controller for handling HTTP GET requests and returning a greeting message.",
+        "line": "1-10",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.service.ts",
+        "name": "MessageService",
+        "description": "Service class for handling message creation, querying, updating, and deletion.",
+        "line": "20-130",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/modules/message/message.resolver.ts",
+        "name": "MessageResolver",
+        "description": "Defines a GraphQL resolver for handling message-related operations.",
+        "line": "10-35",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.service.ts",
+        "name": "ChannelService",
+        "description": "Service class for managing channel creation, querying, updating, and deletion.",
+        "line": "31-102",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/modules/channel/channel.resolver.ts",
+        "name": "ChannelResolver",
+        "description": "Defines a GraphQL resolver for managing channels.",
+        "line": "10-35",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/common/pipes/validation.pipe.ts",
+        "name": "ValidationPipe",
+        "description": "A validation pipe that transforms and validates input data using class-validator.",
+        "line": "6-40",
+        "confidence": "high"
+      },
+      {
+        "file": "nestjs-channel-messenger-demo-main/src/common/filters/http-exception.filter.ts",
+        "name": "HttpExceptionFilter",
+        "description": "A filter for handling HTTP exceptions in a NestJS application.",
+        "line": "6-20",
+        "confidence": "high"
+      }
+    ],
+    "suggested_entrypoints": [
+      "To run the application, check the 'main.ts' file for the bootstrap method.",
+      "For testing, refer to the 'message.service.spec.ts' and 'channel.service.spec.ts' files."
+    ]
+  }
+}
